@@ -2,7 +2,6 @@ import pickle
 import json
 from extractors import *
 
-# Load model + vectorizer
 model, vectorizer = pickle.load(open("model.pkl", "rb"))
 
 def classify_line(line):
@@ -61,19 +60,20 @@ def parse_resume(text):
     return output
 
 
-# Example
+# example
 if __name__ == "__main__":
     resume_text = """
     John Doe
     Email: eswaralakshmi@gmail.com
     Phone: 8888855558
     I am a passionate software engineer with interest in AI.
-    Skills: Python, Java, SQL 
-    Worked at Infosys from 2019 to 2022
-    Completed B.Tech in AI&DS from JNTU 2022
-    Certified in AWS Cloud Practitioner 
-    certified in NLP
+    Skills: Python, Numpy,Pandas, SQL 
+    Worked at abc from 2022 to 2023
+    Completed B.Tech in AI&DS from VIIT 2022
+    Certified in TUF
+    certified in GFG
     """
     
     structured = parse_resume(resume_text)
     print(json.dumps(structured, indent=4))
+
