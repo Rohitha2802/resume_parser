@@ -12,7 +12,6 @@ df = pd.read_csv("train.csv")
 X = df["text"]
 y = df["label"]
 
-# TF-IDF vectorizer
 vectorizer = TfidfVectorizer(stop_words="english")
 
 # Convert text into numbers
@@ -36,3 +35,4 @@ with open("model.pkl", "wb") as f:
     pickle.dump((model, vectorizer), f)
 
 print("Model saved as model.pkl")
+
