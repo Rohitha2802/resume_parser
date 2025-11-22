@@ -1,0 +1,19 @@
+eswari
+Email: eswari@gmail.com
+Phone: 9876543210
+
+I am a dedicated software developer...
+
+Skills:
+Python, Numpy , Pandas , HTML, CSS
+
+Experience:
+Intern at ABC from 2022 to 2023
+
+Education:
+B.Tech in AI&DS, VIIT, 2022
+Intermediate (MPC), Sri Viswa Junior COllege, 2020
+
+Certifications:
+GFG(Geeks for Geeks)
+TUF(Take U Forward)
